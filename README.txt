@@ -1,0 +1,1 @@
+Respuesta personalizada en html a un email, usando la libreria phpmailer
