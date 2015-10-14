@@ -1,0 +1,39 @@
+
+   <!DOCTYPE html>
+   <html>
+    <head>
+         <meta charset="UTF-8">
+         <link href="bootstrap.min.css" rel="stylesheet" >
+         <style>
+             h1{
+                 padding: 20px;
+                 background-color: #A0CE4E;
+                 background-size: cover;
+                 margin-top: 0;
+                 text-align: left;
+             }
+         </style>
+         <script src="boostrap/js/bootstrap.min.css"></script>
+    </head>
+    <body>
+       <h1>Formulario</h1>
+        <div class="container">
+        
+        <form method="post" action="formulario.php" name="form" id="miForm">
+            <div class="form-group"><label >Evento</label><select name="evento" value="e" class="form-control"><option value="0"> - Seleccione - </option></select></div>
+            <div class="form-group"><label >Nombre</label><input name="nombre" placeholder="Nombre y apellidos" type="text" class="form-control"></div>
+            <div class="form-group"><label >Email </label><input name="email" placeholder="Dirección de email" type="text" class="form-control"></p></div>
+            <div class="form-group"><label >Primera</label><select name="prim" value="p" class="form-control"><option value="0"> - Seleccione - </option></select></div>
+            <div class="form-group"><label >Segunda</label><select class="form-control"><option value="0"> - Seleccione - </option></select></div>
+            <div class="form-group"><label >Tercera</label><select class="form-control"><option value="0"> - Seleccione - </option></select></div>
+            <div class="form-group"><label >Observaciones </label><textarea name="observaciones" placeholder="Déjanos tus comentarios" rows="3" class="form-control"></textarea></p></div>
+            <button class="btn btn-primary" type="submit" name="enviar" >Enviar</button>
+        </form>
+        </div>
+        
+
+       
+    </body>
+</html>
+
+
